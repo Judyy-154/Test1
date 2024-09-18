@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: grid;
+grid-template-columns: repeat(2, 1fr);
+height: 100vh;
+width: 100vw;
+}
+.box1 {
+    height: 100%;
+    background-color: rgb(66, 66, 154);
+}
+.box2 {
+    display: grid;
+grid-template-columns: repeat(1, 1fr);
+grid-column-gap: 10px;
+height : 100%;
+}
+.block1, .block2, .block3, .block4{
+   width: 100%;
+   height: 25vh;
+}.block1 {
+    background-color: rgb(170, 89, 52);
+}
+
+.block2 {
+    background-color: rgb(237, 192, 86);
+}
+
+.block3 {
+    background-color: rgb(189, 79, 151);
+}
+
+.block4 {
+    background-color: rgb(94, 162, 79);
+}

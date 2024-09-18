@@ -1,0 +1,33 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.container {
+    width: 100vw;
+    min-height: 100vh; /* 确保容器至少与视窗一样高 */
+}
+.header {
+    background-color: azure;
+    height: 10%;
+    position: fixed;
+    width: 100%;
+}
+.father {
+    display: flex;
+    height: 100%;
+}
+.left {
+    width: 40%;
+    background-color: red;                                                          
+    overflow: auto;
+    position: fixed;
+    height: 100%; /* 确保菜单高度充满视窗 */
+    top: 10%; /* 留出 header 的高度 */
+    left: 0;
+}
+.right {
+    flex-grow: 1; /* 占据父容器剩余的宽度 */
+    background-color: green;
+    padding: 10% 0 0 0; /* 留出 header 的位置 */
+}

@@ -1,0 +1,73 @@
+div{
+    color: green;
+    font-size: 50px;
+}
+.title{
+    width: 100vw;
+    font-weight: bold;
+    text-align: center;
+}
+#div1{
+    color: aqua;
+}
+.class1{
+    color: blueviolet;
+}
+.class2{border: 1px solid}
+.btn{
+    border: 1px solid;
+    background-color: goldenrod;
+    padding: 6px,10px;
+    border-radius: 90px;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: red;
+}
+.triangle{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red;
+}
+.font-weight{
+    width: 150px;
+    text-align: right;
+    font-weight: bold;
+    margin: 10px;
+    border: 1px solid rgb(181, 144, 144);
+    box-shadow: 10px 10px 5px 0px rgba(176, 128, 128, 0.75);
+}
+.flex{
+    display: flex;
+    width : 400px;
+    height: 400px;
+    border: 1px solid;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(39, 39, 110);
+}
+.center{
+    color: rgb(243, 243, 76);
+    font-size: 150px;
+    font-weight: 500;
+}
+.overflow{
+    display: flex;
+    width : 400px;
+    height: 400px;
+    border: 1px solid;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(39, 39, 110);
+    overflow:auto ;
+}
+@media screen and (max-width: 500px) {
+    div{
+        color: red;
+    }
+}
